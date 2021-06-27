@@ -9,7 +9,7 @@ use PhpAmqpLib\Channel\AMQPChannel;
  */
 abstract class GenericContent
 {
-    /** @var AMQPChannel[] */
+    /** @var array */
     public $delivery_info = array();
 
     /** @var array Final property definitions */
